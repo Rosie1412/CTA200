@@ -1,0 +1,294 @@
+    1  print"hello"
+    2  print: "hello"
+    3  print("hello")
+    4  pip3 install jupyter
+    5  jupyter notebook
+    6  jupyter notebook
+    7  git clone https://github.com/HeronMkII/mission-sim
+    8  jupyter notebook
+    9  conda env create -f sims-env.yml
+   10  jupyter notebook
+   11  conda env create -f sims-env.yml
+   12  git clone https://github.com/HeronMkII/mission-sim
+   13  conda env create -f sims-env.yml
+   14  conda activate utat-sims
+   15  jupyter notebook
+   16  git clone https://github.com/HeronMkII/mission-sim
+   17  conda env create -f sims-env.yml
+   18  conda activate utat-sims
+   19  jupyter notebook
+   20  conda activate myenv
+   21  conda activate /Users/rosalindliang/Downloads/mission-sim-master/sims-env.yml 
+   22  conda activate /Users/rosalindliang/mission-sim/sims-env.yml 
+   23  conda env create -f /Users/rosalindliang/mission-sim/sims-env.yml .yml
+   24  conda activate utat-sims
+   25  conda activate /Users/rosalindliang/Downloads/mission-sim-master/sims-env.yml 
+   26  jupyter notebook
+   27  cd mission-sim/
+   28  ls
+   29  conda activate sims-env.yml
+   30  conda info
+   31  conda info --envs
+   32  conda activate utat-sim-env
+   33  conda list
+   34  conda remove --name utat-sim-env
+   35  conda remove --name utat-sim-env --all
+   36  conda deactivate
+   37  conda remove --name utat-sim-env --all
+   38  ls
+   39  cat sims-env.yml 
+   40  git pull
+   41  git status
+   42  git status
+   43  git pull
+   44  cat sims-env.yml 
+   45  conda env create -f sims-env.yml 
+   46  nano sims-env.yml 
+   47  nano sims-env.yml 
+   48  nano sims-env.yml 
+   49  conda env create -f sims-env.yml 
+   50  nano sims-env.yml 
+   51  nano sims-env.yml 
+   52  conda env create -f sims-env.yml 
+   53  nano sims-env.yml 
+   54  nano sims-env.yml 
+   55  conda env create -f sims-env.yml 
+   56  nano sims-env.yml 
+   57  conda env create -f sims-env.yml 
+   58  nano sims-env.yml 
+   59  conda env create -f sims-env.yml 
+   60  conda info --list
+   61  conda info --envs
+   62  conda create --name utat-sims vpython=7.4.7 numpy=1.15.4 python=3.7.2
+   63  conda create --name utat-sims vpython numpy=1.15.4 python=3.7.2
+   64  conda create --name utat-sims numpy=1.15.4 python=3.7.2
+   65  conda actiavte utat-sims
+   66  conda activate utat-sims
+   67  conda install -c vpython vpython
+   68  jupyter notebook
+   69  cd mission-sims
+   70  ls
+   71  cd mission-sim/
+   72  conda activate utat-sims
+   73  jupyter notebook
+   74  cd mission-sim/
+   75  conda activate utat-sims
+   76  jupyter notebook
+   77  cd mission-sim/
+   78  conda activate utat-sims
+   79  jupyter notebook
+   80  cd mission-sim/
+   81  conda activate utat-sims
+   82  jupyter notebook
+   83  jupyter notebook
+   84  jupyter notebook
+   85  cd mission-sim/
+   86  conda activate utat-sims
+   87  jupyter notebook
+   88  jupyter notebook
+   89  cd mission-sim/
+   90  conda activate utat-sims
+   91  jupyter notebook
+   92  git reset --hard
+   93  jupyter notebook
+   94  cd mission-sim/
+   95  conda activate utat-sims
+   96  jupyter notebook
+   97  jupyter notebook
+   98  /Applications/Python\ 3.7/Install\ Certificates.command ; exit;
+   99  cd mission-sim/
+  100  conda activate utat-sims
+  101  jupyter notebook
+  102  ls
+  103  git clone https://www.github.com/HeronMkII/mission-sim
+  104  conda create -n utat-env python=3
+  105  conda activate utat-env
+  106  conda install -c anaconda jupyter
+  107  jupyter notebook
+  108  git pull
+  109  git pull
+  110  jupyter notebook
+  111  jupyter notebook
+  112  notebook/Simulation.ipynb
+  113  git clone https://github.com/HeronMkII/mission-sim
+  114  jupyter notebook
+  115  git pull
+  116  jupyter notebook
+  117  conda install matplotlib
+  118  git pull
+  119  ls
+  120  cd mission-sim/
+  121  git pull
+  122  git stash
+  123  git pull
+  124  jupyter notebook
+  125  jupyter notebook
+  126  jupyter notebook
+  127  conda activate utat-env
+  128  cd mission-sim/
+  129  jupyter notebook
+  130  jupyter notebook
+  131  jupyter notebook
+  132  reload_ext autoreload
+  133  jupyter notebook
+  134  conda activate utat-env
+  135  cd mission-sim/
+  136  jupyter notebook
+  137  conda activate utat-env
+  138  cd mission-sim/
+  139  jupyter notebook
+  140  conda activate utat-env
+  141  cd mission-sim/
+  142  jupyter notebook
+  143  conda create utat-env
+  144  conda activate utat-env
+  145  cd mission-sim/
+  146  jupyter notebook
+  147  conda activate utat-env
+  148  cd mission-sim/
+  149  gitstash
+  150  gitpull
+  151  git pull
+  152  git stash
+  153  git pull
+  154  jupyter notebook
+  155  git stash apply
+  156  git stash list
+  157  git stash apply stash@{1}
+  158  jupyter notebook
+  159  git stash list
+  160  git stash apply stash@{0}
+  161  jupyter notebook
+  162  jupyter notebook
+  163  c
+  164  conda activate utat-env
+  165  cd mission-sim/
+  166  jupyter notebook
+  167  conda activate utat-env
+  168  cd mission-sim/
+  169  jupyter notebook
+  170  conda activate utat-env
+  171  cd mission-sim/
+  172  jupyter notebook
+  173  jupyter notebook
+  174  ipython
+  175  conda
+  176  conda install matplotlib
+  177  conda install numpy
+  178  jupyter 
+  179  jupyter notebook
+  180  jupyter notebook
+  181  jupyter notebook
+  182  jupyter notebook
+  183  conda install astroquery
+  184  conda install astro-gala astroquery
+  185  pip install astro-gala astroquery
+  186  ls
+  187  ls
+  188  cd Documents
+  189  ls
+  190  cd AST222
+  191  ls
+  192  jupyter notebook
+  193  jupyter notebook
+  194  cd AST222
+  195  cd Documents
+  196  ls
+  197  cd AST222
+  198  ls
+  199  jupyter notebook
+  200  jupyter notebook
+  201  jupyter notebook
+  202  jupyter notebook
+  203  cd
+  204  desktop
+  205  cd desktop
+  206  list
+  207  jupyter notebook
+  208  jupyter notebook
+  209  jupyter notebook
+  210  jupyter notebook
+  211  jupyter notebook
+  212  jupyter notebook
+  213  jupyter notebook
+  214  jupyter notebook
+  215  jupyter notebook
+  216  jupyter notebook
+  217  jupyter notebook
+  218  juptyer notebook
+  219  jupyter notebook
+  220  jupyter notebook
+  221  cd downloads
+  222  jupyter notebook
+  223  jupyter notebook
+  224  jupyter notebook
+  225  jupyter notebook
+  226  jupyter notebook
+  227  jupyter notebook
+  228  jupyter notebook
+  229  jupyter notebook
+  230  jupyter notebook
+  231  jupyter notebook
+  232  jupyter notebook
+  233  jupyter notebook
+  234  ssh student11@gw.cita.utoronto.ca
+  235  ssh student11@gw.cita.utoronto.ca
+  236  ssh student11@gw.cita.utoronto.ca
+  237  ssh student11@gw.cita.utoronto.ca
+  238  ssh student11@gw.cita.utoronto.ca
+  239  ssh student11@gw.cita.utoronto.ca
+  240  ssh student11@gw.cita.utoronto.ca
+  241  ssh student11@gw.cita.utoronto.ca
+  242  ssh student11@gw.cita.utoronto.ca
+  243  ssh dubinski@gw.cita.utoronto.ca
+  244  ssh student11@gw.cita.utoronto.ca
+  245  ssh student11@gw.cita.utoronto.ca
+  246  ssh student11@gw.cita.utoronto.ca
+  247  ssh student11@gw.cita.utoronto.ca
+  248  ssh student11@gw.cita.utoronto.ca
+  249  cd Documents
+  250  ls
+  251  ls -la
+  252  git init
+  253  git remote add
+  254  git remote add gitrepo1 https://github.com/Rosie1412/CTA200.git
+  255  pwd
+  256  cd gitrepo1
+  257  gitrepo1
+  258  pwd
+  259  pwd
+  260  ls -la
+  261  git remote add CTA200 https://github.com/Rosie1412/CTA200.git
+  262  folder
+  263  ls -la
+  264  ./Github
+  265  ./CTA200
+  266  ./git
+  267  git
+  268  git remote -v
+  269  average.c
+  270  find average.c
+  271  m
+  272  m makefile
+  273  vi
+  274  gedit
+  275  vi
+  276  jupyter notebook
+  277  cd ~
+  278  jupyter notebook
+  279  cd documents
+  280  cd CTA200
+  281  pwd
+  282  cd G
+  283  cd GitHub/CTA200/
+  284  ls -la
+  285  git add average.c
+  286  git add average.h
+  287  git add main.c
+  288  vi
+  289  gcc
+  290  cc
+  291  pwd
+  292  ave
+  293  ./ave
+  294  history > olderhistory.txt
