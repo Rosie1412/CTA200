@@ -1,0 +1,115 @@
+%% \listfiles
+\documentclass[apj]{emulateapj}
+%\documentclass[preprint2,12pt]{emulateapj}
+%% \usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{amssymb,amsmath}
+\usepackage{array}
+\usepackage{threeparttable}
+
+
+\singlespace
+
+%definitions
+\newcommand{\Msol}{${\rm M_{\sun}}$}
+
+
+%% Editing markup...
+\usepackage{color}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WARNING: This LaTeX block was generated automatically by authors.py
+% Do not change by hand: your changes will be lost.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% --------------------- Ancillary information ---------------------
+\shortauthors{SURP et al.}
+\shorttitle{my short-title}
+\slugcomment{Draft: \today}
+
+
+\begin{document}
+
+\title{CTA200 Assignment 2}
+ %% ---------
+ 
+\author{Rosalind Liang\altaffilmark{1}}
+\altaffiltext{1}{CITA, University of Toronto}
+ 
+
+
+\section{Question 1}
+\label{sec:Question 1}
+
+In this question, we are asked to study the behaviour of the sequence $z_{i+1}=z_i^2+c$ in the complex plane, where $c = x + yi$ and $-2<x<2,   -2<y<2$. In particular, we seek to 1) distinguish the points on this domain for which the sequence converges and the points on which it diverges; 2) to map the iteration numbers for which each divergence occurs.
+\subsection{Q1 methods}
+\label{sec:cmb_data}
+
+Part 1: To locate the coordinates for which the sequence diverges, I used a for loop to pass through 100 iterations of the sequence and collected points of divergence with np.nan(z), which recognizes when either the real or imaginary component of z is no longer a recognizable number (suggesting divergence to infinity). Matplotlib was then used to plot these coordinates. 
+
+Part 2: A similar for loop  was used with np.isfinite(z) to count the number of iterations each coordinate took before diverging. For cases where divergence did not occur within 100 iterations, a special value of -20 was assigned to create contrast in the colourmap, before plotting with matplotlib again.
+
+\subsection{Q1 esults}
+\label{sec:Q1 results}
+The resulting plot of part 1 is shown in Figure 1, where all points of divergence are in yellow and points that remain bounded are in black. The plot for part 2 is shown in Figure 2, where all bounded points are in purple and the rest of the plot is a colourmap of each point's divergence iteration. We observe a fractal shaped zone where the sequence stays bounded, ranging from -1 to 1 in the complex axis and -2 to .5 in the real axis. In figure 2, we see that iterations of divergence are significantly higher around the contours of this zone, and drop to approach zero moving away from it. 
+
+\section{Question 2}
+\label{sec:Question 2}
+
+In this question, we are asked to study the SIR model of disease spread. In particular, we seek to integrate and plot the ODE's $dS/dt$,    $dI/dt$   and   $dR/dt$ given in the assignment, and repeat the process with three different sets of the constants $\beta$ and $\gamma$
+
+\subsection{Q2 methods}
+\label{sec:Q2 methods}
+
+To integrate each of the ODE's, I defined the model as a function and used odeint from scipy to perform the integration. I then played around with different values of $\beta$ and $\gamma$ before selecting a few which generated interesting plots.
+
+\subsection{Q2 results}
+\label{sec:Q2 results}
+I first tried setting both $\beta$ and $\gamma$ to 1, to see the raw behaviour of the integrated function (Figure 3). 
+I then tried $\beta = .1$ and $\gamma = -.1$ (Figure 4) and $\beta = 3$ and $\gamma = 2$ (Figure 5), all of which produced distinct behaviours between the susceptible, infected and recovered proportions over time. Since a discussion section is not required, I will just let you look at them as I'm very tired and would like to go to bed.
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{q11.png}
+\caption{Zone where sequence stays bound is in black, zone of divergence in yellow}
+\label{fig:figureOfSpectrum}
+
+\includegraphics[width=1\columnwidth]{q12.png}
+\caption{Zone where sequence stays bound is in purple, divergence zone coloured by iteration of divergence}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+
+\begin{figure}
+\includegraphics[width=1\columnwidth]{q21.png}
+\caption{First set of constants: $\beta=1, \gamma=1$}
+\label{fig:figureOfSpectrum}
+
+\includegraphics[width=1\columnwidth]{q22.png}
+\caption{First set of constants: $\beta=.1, \gamma=-.1$}
+\label{fig:figureOfSpectrum}
+
+\includegraphics[width=1\columnwidth]{q23.png}
+\caption{First set of constants: $\beta=3, \gamma=2$}
+\label{fig:figureOfSpectrum}
+\end{figure}
+
+
+
+
+ 
+
+
+%\acknowledgments
+
+%% %% \bibliographystyle{act}
+%% \bibliographystyle{apj}
+
+%% \bibliography{lenscib_refs.bib,apj-jour}
+
+
+
+\end{document}
